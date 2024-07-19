@@ -67,9 +67,15 @@ html,body{
     object-fit: cover;
 }
 .right{
-    margin-top: 40px;
+    position: relative;
+    margin-top: 10px;
     width: 40%;
     text-align: center;
+}
+#K{
+    position: absolute;
+    left: 29%;
+    color: rgb(166, 246, 5);
 }
 .right h2{
     font-size: 25px;
@@ -105,7 +111,7 @@ form input{
     padding: 5px 10px;
 }
 #CA{
-    margin: 20px 0;
+    margin-top: 20px;
     width: 240px;
     height: 32px;
     background-color: rgb(166, 246, 5);
@@ -123,4 +129,10 @@ form input{
     font-weight: 500;
     border: 1px solid gray;
     border-radius: 5px;
+}
+.right img{
+    position: absolute;
+    width: 22px;
+    bottom: 16%;
+    left: 25%;
 }
